@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(28, 28, 94);
+}
+.container{
+    max-width: fit-content;
+    background: transparent;
+    color: white;
+    margin: 12%;
+    max-width: 700px;
+    
+}
+.green{
+    max-width: fit-content;
+    color: green;
+    border-bottom: 3px solid green;
+}
+.dabba input{
+    
+    height: 50px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+}
+.dabba{
+    display: flex;
+    height: 50px;
+    background: white;
+    max-width: max-content ;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+   
+}
+.dabba button{
+    width: 25px; 
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px;
+
+    
+        
+}
+.generatebtn{
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 260px;
+    background-color:  green;
+    margin-top: 15px;
+    
+}
+.generatebtn button{
+    height: 50px;
+    background-color:  green;
+    color: white;
+    outline: none;
+    border: none;
+  
+   
+}
+#clickbutton{
+    cursor: pointer;
+}
+#www{
+    cursor: pointer;
+}
